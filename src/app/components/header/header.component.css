@@ -1,0 +1,22 @@
+.head{
+    display: flex;
+    margin:0 auto;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    margin:0 auto;
+    height: 50px;
+}
+mat-nav-list.list-horizontal {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    padding: 0;
+}
+.mat-list-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
