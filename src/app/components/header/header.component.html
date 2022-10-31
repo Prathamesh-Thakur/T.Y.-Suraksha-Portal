@@ -1,15 +1,13 @@
-<mat-toolbar class="head" color="primary">
+<mat-toolbar class="head"> <!--color="primary"-->
     <img src="{{imageSrc}}" alt="{{imageAlt}}" class="w-20 p-3" />
-    <h2 class="flex ">Suraksha Portal</h2>
-    <button class="bg-rose-600 rounded-3xl p-2 m-3 text-sm" routerLink="login" (click)="onLogging()" >Logout</button>
+    <h1>Suraksha Portal</h1>
+    <button class="bg-rose-600 rounded-3xl p-4 m-3 text-sm" (click)="onLogging()" >Logout</button>
 </mat-toolbar>
 
-<mat-toolbar class="nav" color="accent">
-    <mat-nav-list class="list-horizontal">
-        <mat-list-item>Home</mat-list-item>
-        <mat-list-item>HealthCare Centers</mat-list-item>
-        <mat-list-item>Post Office</mat-list-item>
-        <mat-list-item>Insurance Company</mat-list-item>
-        <mat-list-item>Analysis</mat-list-item>
-    </mat-nav-list>
-</mat-toolbar>
+<!-- <mat-toolbar class="nav">
+        <mat-list-item routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</mat-list-item>
+        <mat-list-item routerLink="/healthcare" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">HealthCare Centers</mat-list-item>
+        <mat-list-item routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Post Office</mat-list-item>
+        <mat-list-item routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Insurance Company</mat-list-item>
+        <mat-list-item routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Analysis</mat-list-item>
+</mat-toolbar> -->

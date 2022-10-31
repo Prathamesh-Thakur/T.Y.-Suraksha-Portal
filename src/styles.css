@@ -4,3 +4,32 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.active {
+    background-color:#04009B;
+    color: white;
+  }
+
+.nav{
+  display: flex;
+  margin:0 auto;
+  height: 50px;
+  background-color: #0C8CE9;
+}
+
+.mat-list-item{
+  font-size: 25px;
+  float: left;
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 10px 30px; 
+  padding-right: 187px ;
+  padding-left: 187px;
+  text-decoration:none;
+}
+
+.mat-list-item:hover{
+  background-color: blue;
+  color: black;
+}
